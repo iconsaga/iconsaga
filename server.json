@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.iconsaga/icons",
+  "title": "IconSaga",
+  "description": "Icons that match, in your colors. Your AI finds them for your website or slides, in 10 languages.",
+  "version": "1.0.0",
+  "websiteUrl": "https://iconsaga.com/mcp",
+  "repository": {
+    "url": "https://github.com/iconsaga/iconsaga",
+    "source": "github",
+    "id": "1458899186"
+  },
+  "icons": [
+    {
+      "src": "https://iconsaga.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://iconsaga.com/brand/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iconsaga.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. A personal key from your IconSaga account page gives your AI more uses a month. Without one: 30 a day.",
+          "value": "Bearer {iconsaga_key}",
+          "isRequired": false,
+          "isSecret": true,
+          "variables": {
+            "iconsaga_key": {
+              "description": "Your IconSaga personal key (from your account page at iconsaga.com)",
+              "isRequired": false,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://iconsaga.com/mcp/account"
+    }
+  ]
+}

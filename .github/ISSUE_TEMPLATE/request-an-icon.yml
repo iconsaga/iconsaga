@@ -1,0 +1,46 @@
+name: Request an icon
+description: Can't find the icon you need? Tell us what it should show.
+title: "Icon request: "
+labels: ["icon request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking. Every request is read, and new icons come out in each release (see the [changelog](https://github.com/iconsaga/iconsaga/blob/main/CHANGELOG.md)).
+        Please search [iconsaga.com](https://iconsaga.com) first: the icon may already be there under another name.
+  - type: input
+    id: what
+    attributes:
+      label: What should the icon show?
+      description: In plain words, like "a person returning a parcel" or "durian".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Where will you use it?
+      description: What is the slide, page or document about? This helps us draw the right thing.
+      placeholder: A step on our returns page that says "Send it back for free".
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: What are you making?
+      multiple: true
+      options:
+        - A website or app
+        - Slides
+        - A document or report
+        - A video
+        - Something else
+  - type: input
+    id: words
+    attributes:
+      label: Words you searched for
+      description: What did you type when you looked for it? Any language is fine.
+  - type: textarea
+    id: sketch
+    attributes:
+      label: Anything else?
+      description: You can describe it more, or add your own sketch. Please don't attach icons from other icon libraries; we draw every icon ourselves.
