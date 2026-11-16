@@ -3,6 +3,14 @@
 Notes for whoever lists IconSaga's MCP server in registries and directories, and keeps those listings up to date.
 Every listing is added by hand, by a person.
 
+## Listed now
+
+| Where | Entry | Since |
+|---|---|---|
+| Official MCP Registry | [`com.iconsaga/icons`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.iconsaga/icons) 1.0.0 | 2026-11-16 |
+
+To publish a new version of the card: raise `version` in `server.json`, then `mcp-publisher login dns --domain iconsaga.com --private-key <hex>` (the key's owner has it) and `mcp-publisher publish`.
+
 ## The server card (`server.json`)
 
 [`server.json`](../server.json) in this repository is the card for the official MCP Registry. It validates against the current official schema, [2025-12-11](https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json) (still the latest released version; the registry's [schema changelog](https://github.com/modelcontextprotocol/registry/blob/main/docs/reference/server-json/CHANGELOG.md) only has a draft after it).
