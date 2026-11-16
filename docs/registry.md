@@ -11,9 +11,16 @@ Every listing is added by hand, by a person.
 | mcpservers.org | submitted (free plan); review within 2 weeks, approval email to support@iconsaga.com | 2026-11-16 |
 | Docker MCP Catalog | [docker/mcp-registry#7223](https://github.com/docker/mcp-registry/pull/7223), open | 2026-11-16 |
 
-Waiting: **Glama** (copies from the official registry; not listed yet when last checked) · **mcp.so** (signed out, its form offers only the paid $39 listing; a free path may need an account).
+Waiting: **Glama** (copies from the official registry; not listed yet when last checked) · **mcp.so** (even signed in, its form offers only the paid $39 listing, so not submitted) · **Claude's connector directory** (tested in claude.ai: all four tools work with sign-in; submission prepared, not sent).
 
-To publish a new version of the card: raise `version` in `server.json`, then `mcp-publisher login dns --domain iconsaga.com --private-key <hex>` (the key's owner has it) and `mcp-publisher publish`.
+To publish a new version of the card: raise `version` in `server.json`, then `mcp-publisher login dns --domain iconsaga.com --private-key <hex>` and `mcp-publisher publish`.
+
+**The signing key was deleted on purpose after the first publish**, so the next publish starts with a new key pair:
+
+1. Make a new Ed25519 key with Homebrew's `openssl@3` (`openssl genpkey -algorithm Ed25519 -out <file>`), in a file only you can read, outside every repository. Never print or paste the private key.
+2. In Cloudflare DNS for iconsaga.com, **replace** the apex TXT record `v=MCPv1; k=ed25519; p=…` with the new public key (one MCPv1 record only; leave the SPF record alone).
+3. `mcp-publisher login dns --domain iconsaga.com --private-key <hex of the new key>`.
+4. `mcp-publisher publish`.
 
 ## The server card (`server.json`)
 
