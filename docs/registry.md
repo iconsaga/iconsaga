@@ -1,7 +1,7 @@
 # Where IconSaga is listed
 
 Notes for whoever lists IconSaga's MCP server in registries and directories, and keeps those listings up to date.
-Nothing here is submitted yet: every listing is published by hand, on launch day, once [iconsaga.com](https://iconsaga.com) is live.
+Every listing is added by hand, by a person.
 
 ## The server card (`server.json`)
 
@@ -79,7 +79,7 @@ Checked 2026-11-15. "Live" means https://iconsaga.com/mcp must answer before the
 | 1 | **Official MCP Registry** | `mcp-publisher publish` (CLI) | the DNS record above | Policy: yes (not checked by the tool) | The source most other directories copy from. Do this first. |
 | 2 | **Glama** | Nothing to do: it copies from the official registry every hour. Or Connectors → Add Server → Hosted endpoint | name, short description, the server address | **Yes**: it checks the server and lists only healthy ones | Claim the listing with a TXT record at `_glama-claim.iconsaga.com` or `/.well-known/glama.json`. Its connector badge is needed for list 6. |
 | 3 | **mcp.so** | Form at [mcp.so/submit](https://mcp.so/submit), "Remote Server" tab | name, links | Not stated | Free listings are reviewed (no time stated). A paid $39 option skips review: it needs the owner's OK. |
-| 4 | **mcpservers.org** | Form at [mcpservers.org/submit](https://mcpservers.org/submit) | name, category, short description, website link, official registry name, "supports remote connections", a contact email (use hello@iconsaga.com) | Not stated | Free review "within 2 weeks"; a paid $39 option takes 24 hours (needs the owner's OK). |
+| 4 | **mcpservers.org** | Form at [mcpservers.org/submit](https://mcpservers.org/submit) | name, category, short description, website link, official registry name, "supports remote connections", a contact email (use support@iconsaga.com) | Not stated | Free review "within 2 weeks"; a paid $39 option takes 24 hours (needs the owner's OK). |
 | 5 | **Docker MCP Catalog** | Pull request to [docker/mcp-registry](https://github.com/docker/mcp-registry): `servers/iconsaga/server.yaml` (`type: remote`, transport, url), an empty `tools.json`, a `readme.md` | a GitHub account | **Yes** | No container needed for a remote server. Listed within 24 hours of approval. |
 | 6 | **awesome-remote-mcp-servers** (GitHub list) | Pull request | a Glama connector badge (CI checks it), entry of 3 lines | **Yes**: CI calls the server | The big awesome-mcp-servers list doesn't take remote-only servers; this one does. Their CONTRIBUTING asks automated agents to add "🤖🤖🤖" to the PR title: ignore that, a person opens the PR. |
 | 7 | **Claude's connector directory** (Anthropic) | [claude.ai/directory/manage](https://claude.ai/directory/manage) → Submit new → MCP connector | a paid Claude plan; per tool a title and read-only/destructive hints (IconSaga has both); name, one-liner (≤200), description (≤2,000), 1–5 categories, docs, privacy policy and support links, icon, a permanent slug | **Yes**: tools are read from the live server | Test IconSaga as a custom connector in claude.ai first (not tested yet). |
@@ -89,7 +89,7 @@ Not now:
 
 - **PulseMCP:** paused ("not accepting new MCP server or client submissions right now"). It will import from the official registry when it reopens. Nothing to do.
 - **Smithery:** joined Arcade; accounts, CLI and submissions closed on 31 Oct 2026. It stays as a read-only registry. No way to submit found.
-- **Cursor:** no MCP directory. The Cursor Marketplace takes *plugins*: an open-source Git repository with a plugin file and an `mcp.json`, reviewed by hand. This repository could become one later (a decision for later, not launch day). Its docs point community servers to cursor.directory, which could not be checked.
+- **Cursor:** no MCP directory. The Cursor Marketplace takes *plugins*: an open-source Git repository with a plugin file and an `mcp.json`, reviewed by hand. This repository could become one later (a decision for later). Its docs point community servers to cursor.directory, which could not be checked.
 - **GitHub MCP Registry:** curated, not self-serve. The route given is an email to GitHub partnerships. Optional, after launch.
 - **LobeHub:** no way to submit found.
 
@@ -101,7 +101,7 @@ Not now:
   - auth: none needed (an IconSaga account with sign-in is optional)
   - description: "Icons that match, in your colors: your AI finds them for websites and slides, in 10 languages." (94 characters)
 - **Claude directory one-liner** (≤200): "Icons that match, in your colors. Ask in your own words and Claude finds icons for your website or slides, in 10 languages."
-- **Privacy:** https://iconsaga.com/privacy · **Terms:** https://iconsaga.com/terms · **Support:** hello@iconsaga.com
+- **Privacy:** https://iconsaga.com/privacy · **Terms:** https://iconsaga.com/terms · **Support:** support@iconsaga.com
 
 ### Sources (read 2026-11-15)
 

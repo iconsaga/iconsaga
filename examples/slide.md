@@ -4,9 +4,9 @@
 
 1. Search for what you need in your own words, like "three steps", "handshake" or "growth".
 2. Choose a style and your colors.
-3. Copy the icon into PowerPoint, or download it for Google Slides or Keynote.
+3. Click **Copy for Slides** and paste it on your slide. It works the same in PowerPoint, Google Slides and Keynote. Or download it.
 
-Step by step for each app: [iconsaga.com/powerpoint](https://iconsaga.com/powerpoint)
+Step by step for each app: [iconsaga.com/slides](https://iconsaga.com/slides)
 
 ## With your AI
 

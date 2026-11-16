@@ -110,6 +110,7 @@ Two short examples: **[a website section](examples/website-section.md)** · **[a
 | Your AI can use IconSaga | <!-- sync:guest-per-day -->30<!-- /sync --> times a day without an account, <!-- sync:free-per-month -->1,000<!-- /sync --> a month with a free account | <!-- sync:pro-per-month -->20,000<!-- /sync --> times a month |
 | Moving icons for slides and videos | <!-- sync:free-exports -->10<!-- /sync --> a month with a free account | No limit |
 | Download a whole set at once | | Yes |
+| Sell templates, UI kits and print products made with the icons | | Yes |
 | Price | Free | <!-- sync:price-monthly -->$8<!-- /sync --> a month or <!-- sync:price-yearly -->$69<!-- /sync --> a year |
 
 More about Pro: [iconsaga.com/pro](https://iconsaga.com/pro)
