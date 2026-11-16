@@ -8,6 +8,10 @@ Every listing is added by hand, by a person.
 | Where | Entry | Since |
 |---|---|---|
 | Official MCP Registry | [`com.iconsaga/icons`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.iconsaga/icons) 1.0.0 | 2026-11-16 |
+| mcpservers.org | submitted (free plan); review within 2 weeks, approval email to support@iconsaga.com | 2026-11-16 |
+| Docker MCP Catalog | [docker/mcp-registry#7223](https://github.com/docker/mcp-registry/pull/7223), open | 2026-11-16 |
+
+Waiting: **Glama** (copies from the official registry; not listed yet when last checked) · **mcp.so** (signed out, its form offers only the paid $39 listing; a free path may need an account).
 
 To publish a new version of the card: raise `version` in `server.json`, then `mcp-publisher login dns --domain iconsaga.com --private-key <hex>` (the key's owner has it) and `mcp-publisher publish`.
 
