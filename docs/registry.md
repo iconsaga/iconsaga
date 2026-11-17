@@ -5,13 +5,16 @@ Every listing is added by hand, by a person.
 
 ## Listed now
 
-| Where | Entry | Since |
+| Where | Entry | Date |
 |---|---|---|
-| Official MCP Registry | [`com.iconsaga/icons`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.iconsaga/icons) 1.0.0 | 2026-11-16 |
-| mcpservers.org | submitted (free plan); review within 2 weeks, approval email to support@iconsaga.com | 2026-11-16 |
-| Docker MCP Catalog | [docker/mcp-registry#7223](https://github.com/docker/mcp-registry/pull/7223), open | 2026-11-16 |
+| Official MCP Registry | [`com.iconsaga/icons`](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.iconsaga/icons) 1.0.0 | published 2026-11-16 |
+| Claude's connector directory | [IconSaga](https://claude.ai/directory/iconsaga), the sign-in connector `https://iconsaga.com/mcp/account` | published 2026-11-17 |
+| mcpservers.org | free listing | approved 2026-11-17 |
+| mcptry | listed on its own, score 90/100 | seen 2026-11-17 |
+| MCP Marketplace (mcp-marketplace.io) | imported on its own from the official registry; a claim is offered, not claimed | seen 2026-11-17 |
+| Docker MCP Catalog | [docker/mcp-registry#7223](https://github.com/docker/mcp-registry/pull/7223), updated after the automated review, waiting for review | opened 2026-11-16 |
 
-Waiting: **Glama** (copies from the official registry; not listed yet when last checked) · **mcp.so** (even signed in, its form offers only the paid $39 listing, so not submitted) · **Claude's connector directory** (tested in claude.ai: all four tools work with sign-in; submission prepared, not sent).
+Pending: **Glama** (copies from the official registry; not listed yet when last checked). Skipped: **mcp.so** (its form offers only a paid $39 listing).
 
 To publish a new version of the card: raise `version` in `server.json`, then `mcp-publisher login dns --domain iconsaga.com --private-key <hex>` (the key's owner has it) and `mcp-publisher publish`.
 

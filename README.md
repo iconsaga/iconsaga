@@ -21,6 +21,10 @@ IconSaga has <!-- sync:icons -->4,892<!-- /sync --> free icons for your website,
 
 It takes about a minute, and you don't need an account to start.
 
+### Claude
+
+The easiest way: **[add IconSaga from Claude's directory](https://claude.ai/directory/iconsaga)** and click Connect. You sign in to IconSaga once (a free account is enough), then ask Claude for icons in your own words.
+
 ### Claude Code
 
 Run this once in your terminal:
