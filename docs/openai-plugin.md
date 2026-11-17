@@ -1,5 +1,13 @@
 # IconSaga in OpenAI's Plugins Directory (ChatGPT and Codex)
 
+> **Status: paused 2026-11-17** until a business verification under the name IconSaga is possible. The package and the self-test are ready.
+> When it resumes, still needed:
+> 1. business verification under the name IconSaga
+> 2. a neutral MCP quota message for ChatGPT and Codex, without upgrade promotion
+> 3. a demo video
+> 4. the domain token at `/.well-known/openai-apps-challenge`
+> 5. reviewer credentials
+
 Notes for listing IconSaga in OpenAI's plugin directory, which ChatGPT and Codex share. **Nothing is created or submitted yet.** The package is ready; what's left needs the owner (identity, review account, attestations) and two small changes on the website.
 
 Sources, all read on 2026-11-17: [submission](https://developers.openai.com/plugins/deploy/submission) · [submission errors](https://developers.openai.com/plugins/deploy/submission-errors) · [app review](https://developers.openai.com/plugins/deploy/app-review) · [plugin guidelines](https://developers.openai.com/plugins/plugin-guidelines) · [build plugins](https://developers.openai.com/plugins/build/plugins) · [auth](https://developers.openai.com/plugins/build/auth) · [organization verification](https://help.openai.com/en/articles/10910291-api-organization-verification) · [supported countries](https://help.openai.com/en/articles/7947663-chatgpt-and-openai-api-supported-countries-and-territories)
