@@ -1,0 +1,174 @@
+{
+  "about": "Self-test of the OpenAI plugin test cases, run once each through Codex CLI against the signed-in endpoint on 2026-11-17. P1-P5 are the positive cases and N4-N6 the negative cases in openai-plugin/plugin.json; N1-N3 are extra negatives. The Codex used here also had a private IconSaga skill pointing at local files, so the positive runs added: (Use the IconSaga connector's tools, not files on this computer.) The prompts in plugin.json don't have that sentence. N5 and N6: Codex used its own tools (image generation, a browser it wasn't allowed to open); no IconSaga tool was called and nothing was bought.",
+  "cases": [
+    {
+      "id": "P1",
+      "kind": "positive",
+      "prompt": "Use IconSaga to find an icon for \"online payment\".",
+      "tools_triggered": [
+        "search_icons",
+        "get_icon"
+      ],
+      "expected_behavior": "Searches IconSaga and returns a few payment icons (names and ids), such as a credit card or online payment icon.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [
+          "search_icons",
+          "get_icon"
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "P2",
+      "kind": "positive",
+      "prompt": "ช่วยหาไอคอนทุเรียนจาก IconSaga ให้หน่อย",
+      "tools_triggered": [
+        "search_icons",
+        "get_icon"
+      ],
+      "expected_behavior": "Searches in Thai and finds the durian icon; answers in Thai.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [
+          "search_icons",
+          "get_icon"
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "P3",
+      "kind": "positive",
+      "prompt": "Get IconSaga's rocket icon in the duo style, with navy #1E2A4A as the main color and amber #FFB020 as the second color. Show me the SVG.",
+      "tools_triggered": [
+        "search_icons",
+        "get_icon"
+      ],
+      "expected_behavior": "Gets the rocket icon (searching first if needed) in the duo style with both colors, and shows or saves the SVG.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [
+          "search_icons",
+          "get_icon"
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "P4",
+      "kind": "positive",
+      "prompt": "My project uses these icon names: arrow-right, shopping-cart, trash-2. Find the matching IconSaga icons.",
+      "tools_triggered": [
+        "match_icons"
+      ],
+      "expected_behavior": "Matches all three names in one call: arrow-right, shopping-cart and trash-can (for trash-2).",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [
+          "match_icons"
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "P5",
+      "kind": "positive",
+      "prompt": "What icon sets does IconSaga have, and how many icons are in each?",
+      "tools_triggered": [
+        "list_sets"
+      ],
+      "expected_behavior": "Lists IconSaga's 51 icon sets with how many icons each one has.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [
+          "list_sets"
+        ],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N1",
+      "kind": "negative",
+      "prompt": "What's the weather usually like in Bangkok in December?",
+      "tools_triggered": [],
+      "expected_behavior": "Answers from general knowledge without calling IconSaga.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N2",
+      "kind": "negative",
+      "prompt": "Write a Python function that sorts a list of numbers from largest to smallest.",
+      "tools_triggered": [],
+      "expected_behavior": "Writes the code without calling IconSaga.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N3",
+      "kind": "negative",
+      "prompt": "Translate \"Thank you for your order\" into French and Japanese.",
+      "tools_triggered": [],
+      "expected_behavior": "Translates without calling IconSaga.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N4",
+      "kind": "negative",
+      "prompt": "Delete the rocket icon from IconSaga.",
+      "tools_triggered": [],
+      "expected_behavior": "Explains that IconSaga only finds and fetches icons and can't delete or change them; calls no tool.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N5",
+      "kind": "negative",
+      "prompt": "Make a photo-realistic picture of a beach at sunset with IconSaga.",
+      "tools_triggered": [],
+      "expected_behavior": "Explains that IconSaga has icons, not photos, and can't make pictures; calls no tool or only offers a beach icon instead.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    },
+    {
+      "id": "N6",
+      "kind": "negative",
+      "prompt": "Buy an IconSaga subscription for me.",
+      "tools_triggered": [],
+      "expected_behavior": "Explains it can't buy or change plans; calls no tool.",
+      "self_test_2026_11_17": {
+        "client": "Codex CLI 0.164.0",
+        "endpoint": "https://iconsaga.com/mcp/account (signed in)",
+        "tools_called": [],
+        "result": "pass"
+      }
+    }
+  ]
+}

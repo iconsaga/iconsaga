@@ -1,0 +1,107 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "iconsaga",
+  "version": "1.0.0",
+  "description": "Find icons that match, in your own colors, for websites, slides and documents. Search IconSaga's 4,892 icons in your own words, in 10 languages, and get each one in your colors as React, HTML or SVG.",
+  "author": {
+    "name": "IconSaga",
+    "email": "support@iconsaga.com",
+    "url": "https://iconsaga.com"
+  },
+  "homepage": "https://iconsaga.com/mcp",
+  "repository": "https://github.com/iconsaga/iconsaga",
+  "keywords": [
+    "icons",
+    "pictograms",
+    "design",
+    "web design",
+    "slides",
+    "brand colors"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "IconSaga",
+        "shortDescription": "Icons that match your colors",
+        "longDescription": "IconSaga is a library of 4,892 icons, all drawn in one style so they belong together. Ask in your own words, in any of 10 languages: IconSaga finds icons that fit, gets them in your colors, and gives them to you ready for your website, slides or documents.\n\nYou can ask for:\n- icons for the features, steps or benefits on a web page, as React or HTML code\n- icons for a slide, as an SVG in your deck's colors\n- a matching IconSaga icon for each icon name a project already uses\n\nThree styles: line, solid and duo (two colors). You sign in with your IconSaga account. Icons used on the free plan need one credit line: \"Icons by IconSaga · iconsaga.com\".",
+        "developerName": "IconSaga",
+        "category": "Creativity",
+        "capabilities": [
+          "Search icons",
+          "Get icons in your colors",
+          "Match icon names"
+        ],
+        "websiteURL": "https://iconsaga.com",
+        "supportURL": "https://iconsaga.com/about",
+        "privacyPolicyURL": "https://iconsaga.com/privacy",
+        "termsOfServiceURL": "https://iconsaga.com/terms",
+        "defaultPrompt": [
+          "Add an icon to each feature card on my landing page, in our brand colors.",
+          "Find icons for a three-step slide: sign up, set up, go live.",
+          "Replace this project's icons with matching IconSaga icons."
+        ],
+        "brandColor": "#1E2A4A",
+        "brandColorDark": "#FFB020",
+        "composerIcon": "./assets/composer-icon.png",
+        "logo": "./assets/logo.png"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md",
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Find icons by meaning",
+              "prompt": "Use IconSaga to find an icon for \"online payment\".",
+              "tools_triggered": "search_icons, get_icon",
+              "expected_behavior": "Searches IconSaga and returns a few payment icons with their names and ids, such as Payment Link or Virtual Card."
+            },
+            {
+              "description": "Search in another language (Thai)",
+              "prompt": "ช่วยหาไอคอนทุเรียนจาก IconSaga ให้หน่อย",
+              "tools_triggered": "search_icons, get_icon",
+              "expected_behavior": "Searches with the Thai words, finds the durian icon (durian-segment) and answers in Thai."
+            },
+            {
+              "description": "Get an icon in two colors",
+              "prompt": "Get IconSaga's rocket icon in the duo style, with navy #1E2A4A as the main color and amber #FFB020 as the second color. Show me the SVG.",
+              "tools_triggered": "search_icons, get_icon",
+              "expected_behavior": "Gets the rocket icon in the duo style and shows an SVG that uses #1E2A4A and #FFB020."
+            },
+            {
+              "description": "Match a project's icon names",
+              "prompt": "My project uses these icon names: arrow-right, shopping-cart, trash-2. Find the matching IconSaga icons.",
+              "tools_triggered": "match_icons",
+              "expected_behavior": "Matches all three names in one call: Right Arrow (arrow-right), Shopping Cart (shopping-cart) and Trash Can (trash-can) for trash-2."
+            },
+            {
+              "description": "List the icon sets",
+              "prompt": "What icon sets does IconSaga have, and how many icons are in each?",
+              "tools_triggered": "list_sets",
+              "expected_behavior": "Lists IconSaga's 51 icon sets with how many icons each one has (4,892 in total)."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Deleting icons isn't supported: IconSaga only finds and fetches icons, so no IconSaga tool is called and the answer says it can't delete.",
+              "prompt": "Delete the rocket icon from IconSaga."
+            },
+            {
+              "description": "Making photos isn't something IconSaga does (it has icons, not photos), so no IconSaga tool is called.",
+              "prompt": "Make a photo-realistic picture of a beach at sunset with IconSaga."
+            },
+            {
+              "description": "Buying isn't supported: the plugin can't buy or change plans, so no IconSaga tool is called and nothing is bought.",
+              "prompt": "Buy an IconSaga subscription for me."
+            }
+          ]
+        },
+        "commerce": false,
+        "commerce_description": "This plugin doesn't sell anything or process payments. It only finds and fetches icons."
+      },
+      "publication": {
+        "countries": [],
+        "release_notes": "First release: find IconSaga icons in your own words, in 10 languages, get them in your colors for websites and slides, and match the icon names a project already uses."
+      }
+    }
+  }
+}
