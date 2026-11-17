@@ -9,6 +9,20 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.0 · 2026-11-17
+
+**602 new icons in 11 new sets, and three clearer redraws** (4,892 → 5,494 icons · 51 → 62 sets). Every icon was reviewed one by one before release.
+
+- New group **Play and Lifestyle**, 7 sets: Games and Game Making (122) · Fashion and Beauty (59) · Music and Entertainment (46) · Celebrations and Holidays (46) · Toys, Kids and Family (40) · Space and Sci-fi (32) · Outdoor and Camping (30)
+- New sets in existing groups: Website Sections (72) · Local Services (52) · Design and Creative Tools (47) · Presenting and Slide Metaphors (41)
+- New category **Body Parts** in People (15 icons)
+- Every new icon in line, solid and duo with its motion, and names and search words in all 10 languages. Weapons are fantasy only (sword, shield, bow; no guns), holidays are shown by their celebrations (no religious symbols), and there are no brand logos.
+- Redrawn:
+  - **Webhook v3**: a lightning bolt (the event) sends an arrow into an app window. v2's two boxes and a dot read as an abstract diagram.
+  - **Party Popper v2**: a cone that pops a fan of streamers. v1's large six-point star could read as a religious symbol.
+  - **Projector v2**: the light beam starts at the lens and spreads out.
+- 13 search words for icons that were already in the library: "social listening" and "brand mentions" find Mention · "report" finds Document · "win back" and "re-engage" find Customer Retention · "relationship" finds Handshake.
+
 ## 1.2.0 · 2026-11-15
 
 **One new icon: Logo Placeholder** (4,891 → 4,892 icons). A rounded logo slot with an abstract mark, for "pick a logo" or "your logo here" in slides and mock-ups. It is not any company's logo. Line, solid and duo, with motion (the mark pops in), names and search words in 10 languages ("logo", "brand mark", "โลโก้").
