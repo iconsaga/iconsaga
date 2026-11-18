@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,494 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
+  <a href="https://iconsaga.com"><img src="assets/readme/readme-1-hook-1600x800.png" width="880" alt="IconSaga: 5,511 free icons. IconSaga's icon sets and a grid of its icons on a dark stage, with iconsaga.com."></a>
 </p>
 
 # IconSaga
