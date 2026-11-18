@@ -9,6 +9,18 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.3 · 2026-11-18
+
+**Arrows draw themselves, the "!" in warnings pops, 266 icons updated** (still 5,511 icons · 62 sets). Every changed icon was reviewed, and each got a new icon version.
+
+- Arrows with a shaft now draw from the tail to the tip of the head as one stroke, with the head appearing last. This covers straight, bent, curved and stepped arrows, and arrows inside icons. Only the arrow moves; the rest of the icon stays still. 243 icons.
+  - Where a solid icon had a filled block arrow, the solid arrow is now a thick stroke, so it can draw too.
+  - Chevrons and ▶ still slide the way they point. Download and upload arrows still drop and rise. Circular sync arrows still spin. Arrows with several heads already drew this way.
+  - Six icons keep their motion on purpose: a real arrow or dart (Bow and Arrow, Business Objective, Temple Fair Target Game), an icon whose meaning is the moving object (Automatic Sliding Door, Taxiway), or a block arrow drawn as one closed outline (Transfer Rate).
+- The "!" in warning icons pops once instead of blinking, and the sign stays still. 22 icons, including Warning, Alert Circle, Document Warning and Chat Warning.
+- **Repeating Notification**: a new arrowhead that follows the curve, turning the way it points.
+- 5 arrows are redone for 1.3.4 and stay as in 1.3.2: Check In File, Contingency plan, Month over month, Rollback, Withdraw Consent.
+
 ## 1.3.2 · 2026-11-18
 
 **17 new icons and 9 icons fixed** (5,494 → 5,511 icons · 62 sets). Every new and changed icon was reviewed one by one, and each changed icon got a new icon version.
