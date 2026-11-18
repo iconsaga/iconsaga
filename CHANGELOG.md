@@ -9,6 +9,29 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.2 · 2026-11-18
+
+**17 new icons and 9 icons fixed** (5,494 → 5,511 icons · 62 sets). Every new and changed icon was reviewed one by one, and each changed icon got a new icon version.
+
+- New icons, with names and search words in all 10 languages:
+  - Factory · Casino Chip · Slot Machine · Thai Lottery Ticket
+  - Up Chevron · Down Chevron · Alert Circle · Close Circle · Dashed Circle
+  - Clipboard Check · Clipboard Add · Document Warning · Chat Warning
+  - Health Insurance · Poison Bottle · Decline Arrow · Light Switch
+- Fixed (these stayed at their 1.3.0 look in 1.3.1):
+  - **Internal Auditor**: the magnifier and the pages no longer overlap.
+  - **Synced Passkey**: both arrows sit on one circle and turn together.
+  - **Glass Recycling Process**: a clean round arrow with an even head.
+  - **Replacement Bearing**: one clean arrow around the bearing, drawn shaft first.
+  - **Reply privately**: the arrow and the chat bubble are apart.
+  - **Reverse geocoding**: a balanced arrowhead pointing at the document.
+  - **Rework part**: the arrowhead points the way the arrow moves.
+  - **Road Roundabout**: the arrow no longer covers the roads.
+  - **Anonymous Mode**: the mask settles downward, like its family.
+- Search: "poison" now finds Poison Bottle first, then Skull.
+- Repeating Notification stays as in 1.3.0 while its arrow is redone.
+- Coming next: arrows with a shaft will draw from tail to tip instead of sliding, and the ! in warning icons will pop instead of blinking.
+
 ## 1.3.1 · 2026-11-18
 
 **484 icons now move the same way as their family, 7 icons fixed, new search words** (still 5,494 icons · 62 sets). Every changed icon was reviewed one by one, and each got a new icon version.

@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "iconsaga",
   "version": "1.0.0",
-  "description": "Find icons that match, in your own colors, for websites, slides and documents. Search IconSaga's 5,494 icons in your own words, in 10 languages, and get each one in your colors as React, HTML or SVG.",
+  "description": "Find icons that match, in your own colors, for websites, slides and documents. Search IconSaga's 5,511 icons in your own words, in 10 languages, and get each one in your colors as React, HTML or SVG.",
   "author": {
     "name": "IconSaga",
     "email": "support@iconsaga.com",
@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "IconSaga",
         "shortDescription": "Icons that match your colors",
-        "longDescription": "IconSaga is a library of 5,494 icons, all drawn in one style so they belong together. Ask in your own words, in any of 10 languages: IconSaga finds icons that fit, gets them in your colors, and gives them to you ready for your website, slides or documents.\n\nYou can ask for:\n- icons for the features, steps or benefits on a web page, as React or HTML code\n- icons for a slide, as an SVG in your deck's colors\n- a matching IconSaga icon for each icon name a project already uses\n\nThree styles: line, solid and duo (two colors). You sign in with your IconSaga account. Icons used on the free plan need one credit line: \"Icons by IconSaga · iconsaga.com\".",
+        "longDescription": "IconSaga is a library of 5,511 icons, all drawn in one style so they belong together. Ask in your own words, in any of 10 languages: IconSaga finds icons that fit, gets them in your colors, and gives them to you ready for your website, slides or documents.\n\nYou can ask for:\n- icons for the features, steps or benefits on a web page, as React or HTML code\n- icons for a slide, as an SVG in your deck's colors\n- a matching IconSaga icon for each icon name a project already uses\n\nThree styles: line, solid and duo (two colors). You sign in with your IconSaga account. Icons used on the free plan need one credit line: \"Icons by IconSaga · iconsaga.com\".",
         "developerName": "IconSaga",
         "category": "Creativity",
         "capabilities": [
@@ -77,7 +77,7 @@
               "description": "List the icon sets",
               "prompt": "What icon sets does IconSaga have, and how many icons are in each?",
               "tools_triggered": "list_sets",
-              "expected_behavior": "Lists IconSaga's 62 icon sets with how many icons each one has (5,494 in total)."
+              "expected_behavior": "Lists IconSaga's 62 icon sets with how many icons each one has (5,511 in total)."
             }
           ],
           "negative": [
