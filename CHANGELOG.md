@@ -9,6 +9,18 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.4 · 2026-11-18
+
+**10 arrows redone or switched to drawing** (still 5,511 icons · 62 sets). Every changed icon was reviewed, and each got a new icon version.
+
+- 5 arrows held back from 1.3.3 are redrawn:
+  - **Check In File**: the arrow gets a short straight stretch before its head, which now points straight down.
+  - **Contingency plan**: the detour no longer runs across the bag. It leaves the road, passes under the obstacle and rejoins the road on the right, and the bag is shallower, so there is clear space between them.
+  - **Month over month**: the arrowhead now lines up with the direction the curve is travelling.
+  - **Rollback**: a smaller curve with a straight stretch before the head; the boxes moved so the head doesn't touch them.
+  - **Withdraw Consent**: the arrow now runs straight up beside the form and points up.
+- 5 arrows with a shaft that still slid now draw from the tail to the tip of the head, like the other arrows since 1.3.3. Their pictures don't change, only the motion: One-Way Sync, Seek Backward, Seek Forward, Step Back Frame, Step Forward Frame.
+
 ## 1.3.3 · 2026-11-18
 
 **Arrows draw themselves, the "!" in warnings pops, 266 icons updated** (still 5,511 icons · 62 sets). Every changed icon was reviewed, and each got a new icon version.
