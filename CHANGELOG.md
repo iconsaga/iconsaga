@@ -9,6 +9,30 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.1 · 2026-11-18
+
+**484 icons now move the same way as their family, 7 icons fixed, new search words** (still 5,494 icons · 62 sets). Every changed icon was reviewed one by one, and each got a new icon version.
+
+- Icon families move alike:
+  - Arrows, chevrons and triangles slide the way they point, in 8 directions (left, down and the 4 diagonals are new; diagonals move 1.2 on each axis).
+  - Arrows that point several ways draw their shaft first, then the head.
+  - Badges move only the badge, and the same way everywhere:
+    - + and − pop, ✓ draws, ✕ draws one stroke after the other.
+    - A padlock drops as a whole and an open padlock rises.
+    - A warning blinks only its !.
+    - A clock badge pops as one clock.
+  - Icons with an arrow inside slide only the arrow.
+- Fixed:
+  - **Jump to Section**: redrawn as one arrow into the chosen section.
+  - **Cut**: one blade turns at the pivot, like a snip.
+  - **Chevrons Left**: moves like Chevrons Right.
+  - **Door Opener Button**: a flat door that swings open on its hinge.
+  - **White Cane**: one piece that sweeps along the ground.
+  - **Two-Finger Scroll**: a natural two-finger hand.
+  - **Thai Repetition Mark (ๆ)**: redrawn to match the real letterform.
+- Search: "casino", "gambling", "คาสิโน" and "การพนัน" find Playing Cards, Card Deck and Dice. This release also carries the search words added on 18 Nov for searches that found nothing.
+- 10 icons stay as they were in 1.3.0 while their motion is redone for 1.3.2.
+
 ## 1.3.0 · 2026-11-17
 
 **602 new icons in 11 new sets, and three clearer redraws** (4,892 → 5,494 icons · 51 → 62 sets). Every icon was reviewed one by one before release.
