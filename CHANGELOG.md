@@ -9,6 +9,16 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.6 · 2026-11-19
+
+**618 icons improved after the full-library review** (still 5,511 icons · 62 sets). All of them were checked again and passed before release. Every changed icon has a new icon version.
+
+- **Thai Context, whole set (192 icons):** redrawn around what makes each thing recognisably Thai, and each one moves in a way that suits it.
+- **Motion (177 icons in many sets):** parts that are attached stay attached. Things turn around their real joints, vehicles stay level, and each motion fits the kind of thing shown.
+- **Easier to read (84 icons):** one idea per icon, nothing overlapping, and the one detail that sets each thing apart is drawn clearly.
+- **People (165 icons):** people in People, Wellness, Sports and other sets now follow one standard for figures and busts, so they look like one family. Sports and Wellness were checked as whole sets.
+- Icons that draw a hand stay as they are for now. Hands are being redrawn and will come in a later release.
+
 ## 1.3.5 · 2026-11-19
 
 **18 icons fixed after the full-library review** (still 5,511 icons · 62 sets). Each one was failed in the review for its own reason, redrawn, then passed. Every changed icon got a new icon version.
