@@ -9,6 +9,30 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.5 · 2026-11-19
+
+**18 icons fixed after the full-library review** (still 5,511 icons · 62 sets). Each one was failed in the review for its own reason, redrawn, then passed. Every changed icon got a new icon version.
+
+- Arrows cleaned up:
+  - **Recycling**: three identical arrows with equal gaps, turning around the middle of the triangle.
+  - **Returnable Bottle**: the arrow loops over the bottle and points back down to it.
+  - **Selective Sync**: the arrow pair is now a true 180° pair with straight stretches before the heads.
+  - **Year over year**: the arrowhead lines up with the curve, like Month over month in 1.3.4.
+- Clearer pictures:
+  - **Coat Rack**: the hat hangs on a hook and rocks on it, instead of floating.
+  - **Deep Link**: the link uses the library's chain links and points into the page.
+  - **Knee Pads**: a kneeling person with the pad on the knee.
+  - **Luggage Padlock** and **Machine Lockout**: the padlock is a corner badge with a gap. Machine Lockout now shows a power cabinet with a lightning bolt.
+  - **Metered Connection**: a gauge with a needle, plus a small network plug.
+  - **Napkin**: a folded napkin with a fork beside it; the napkin flutters.
+  - **Nearby Device Discovery**: a phone sending waves to a device nearby.
+  - **Pharmacy**: a shop with a big sign showing a capsule.
+  - **Relight Portrait**: a round light with three rays aimed at the portrait.
+  - **Rice Threshing**: a bundle of cut rice with grains falling onto a pile.
+  - **Video Camera Tripod Fluid Head**: the lens faces one way and the pan handle the other, like the real thing. The camera tilts on the head without coming loose.
+  - **Water Footprint**: a footprint with a water drop badge.
+  - **Weak Wireless Signal**: one full bar left, the others shown as dots.
+
 ## 1.3.4 · 2026-11-18
 
 **10 arrows redone or switched to drawing** (still 5,511 icons · 62 sets). Every changed icon was reviewed, and each got a new icon version.
