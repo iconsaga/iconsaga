@@ -9,6 +9,15 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.7 · 2026-11-19
+
+**23 icons fixed** (still 5,511 icons · 62 sets). These were failed in the last review round, fixed one by one, and passed. Every changed icon has a new icon version.
+
+- **Sports (14):** Bowling Lane has its ten pins in 1-2-3-4 rows. Tennis Court is seen from above with its lines and net. Yoga Mat, Resistance Band, Badminton Smash, Soccer Dribble and Kickboard are redrawn so they read at a glance. Punching Bag, Soccer Ball, Suspension Trainer Straps, Swim Fins, Swim Goggles and Disc Golf Basket move better: the bag swings on its chain, the ball spins, the goggles bounce instead of drawing in. Fitness Studio looks the same but now exports cleanly.
+- **People (3):** Shoulder Shrug, Hand Shade Brows and Hands Forming Heart.
+- **Clearer pictures (3):** Supermarket shows a shopping cart at the store. Street Sweeper Vehicle has its round brush under the front. Rooftop Terrace combines the clearer drawing with the umbrella opening from its pole.
+- **Thai Context (3):** Khao Tom Fish shows a whole fish over the bowl. New Year Gift Basket keeps its basket with a new bow. Sai Ua Coil is the thick coil with skewers and herbs.
+
 ## 1.3.6 · 2026-11-19
 
 **618 icons improved after the full-library review** (still 5,511 icons · 62 sets). All of them were checked again and passed before release. Every changed icon has a new icon version.
