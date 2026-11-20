@@ -9,6 +9,10 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.9 · 2026-11-20
+
+**Pinky Promise redrawn** (still 5,511 icons · 62 sets). Two people side by side hook their little fingers, which are now drawn as real curved fingers on the new hand standard from 1.3.8. This completes the new hands. The icon has a new icon version.
+
 ## 1.3.8 · 2026-11-20
 
 **New hands across the library: 143 icons** (still 5,511 icons · 62 sets). Every hand now follows one drawing standard. Fingers have natural lengths, and the thumb sits on the correct side for a left or right hand and for the palm or the back. Every changed icon has a new icon version.
