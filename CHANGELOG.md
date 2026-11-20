@@ -9,6 +9,15 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.8 · 2026-11-20
+
+**New hands across the library: 143 icons** (still 5,511 icons · 62 sets). Every hand now follows one drawing standard. Fingers have natural lengths, and the thumb sits on the correct side for a left or right hand and for the palm or the back. Every changed icon has a new icon version.
+
+- **Hand gestures (18):** open palm, stop hand, pointing, raised fingers, crossed fingers, clapping, high five, fist bump, handshake (two right hands), beckoning with the whole hand and more. Gestures with curled fingers show the back of the hand. Hands Clasped now shows palms pressed together, and its search words were updated to match.
+- **Role busts (72):** people in the Roles set and nearby sets now use the same bust as the People set. Each keeps the tool or item of its job.
+- **Hands receiving or holding (23)**, **hands in other sets (16)** such as touch gestures, and **small hands on busts and faces (14)**: only the hand changed, everything else is as before.
+- Pinky Promise stays as it is for now and comes in a later release.
+
 ## 1.3.7 · 2026-11-19
 
 **23 icons fixed** (still 5,511 icons · 62 sets). These were failed in the last review round, fixed one by one, and passed. Every changed icon has a new icon version.
