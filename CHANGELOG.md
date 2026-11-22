@@ -9,6 +9,10 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.10 · 2026-11-22
+
+**6 new icons from searches that found nothing** (5,517 icons · 62 sets). People searched for gold, blood donation bags and blood types and got no match, so these are drawn from what they asked for: Gold Bar in Finance, and Blood Bag plus Blood Type A, B, AB and O in Health. The four blood types share one drop and differ only in the letters. Each has search words in all 10 languages, so "gold", "blood bag" and "blood type" now find them.
+
 ## 1.3.9 · 2026-11-20
 
 **Pinky Promise redrawn** (still 5,511 icons · 62 sets). Two people side by side hook their little fingers, which are now drawn as real curved fingers on the new hand standard from 1.3.8. This completes the new hands. The icon has a new icon version.
