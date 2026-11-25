@@ -9,6 +9,15 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.11 · 2026-11-25
+
+**2 new icons, clearer names and search that understands whole sentences** (5,519 icons · 62 sets).
+
+- **New icons (2):** Social Post Caption (Communication) and Cloud Computer (Development), drawn from searches that found nothing.
+- **Search by sentence:** type or send a whole request such as "I need an icon for refund on my store dashboard" and get the closest icons. Words that only ask ("find me", "please", ช่วยหา…หน่อย) are left out, and words that many icons share count less. On the website a long sentence used to show no icons at all; now it shows the closest ones and the words it searched by. AI apps are told to search one icon at a time in a few words.
+- **Names:** 160 English and 144 Thai names are fixed or made more natural (for example "Portable Document File" is now "PDF File"), with 346 names in the other 8 languages. Icon ids do not change.
+- **Search words:** 318 words added to 54 icons from searches that found the wrong icon, in all 10 languages (for example "coins" now finds Coin first).
+
 ## 1.3.10 · 2026-11-22
 
 **6 new icons from searches that found nothing** (5,517 icons · 62 sets). People searched for gold, blood donation bags and blood types and got no match, so these are drawn from what they asked for: Gold Bar in Finance, and Blood Bag plus Blood Type A, B, AB and O in Health. The four blood types share one drop and differ only in the letters. Each has search words in all 10 languages, so "gold", "blood bag" and "blood type" now find them.
