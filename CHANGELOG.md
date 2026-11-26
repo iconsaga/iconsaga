@@ -9,6 +9,13 @@ Every IconSaga release has a version number, so you can always see what changed.
 See every icon at [iconsaga.com](https://iconsaga.com). Missing one? [Request an icon](https://github.com/iconsaga/iconsaga/issues/new?template=request-an-icon.yml).
 
 <!-- sync:changelog -->
+## 1.3.12 · 2026-11-26
+
+**8 new icons and a clearer Party Popper** (5,527 icons · 62 sets).
+
+- **New icons (8):** Cryptocurrency, Funding Round and Use of Funds (Finance), Mobile Coffee Order and Quota Reset Coupon (Commerce), Omnichannel Publishing (Communication), Landlord (Roles and Occupations) and Work Continues After Close (Status and Feedback), drawn from icons people asked for and searches that found nothing.
+- **Redrawn:** Party Popper now pops a clear burst out of the cone, so it reads at large sizes too. The icon has a new icon version.
+- **Search words:** "content tag", "piggy bank" and "wooden pencil", with their Thai, French and German words, now find Task Label, Savings and Edit.
 ## 1.3.11 · 2026-11-25
 
 **2 new icons, clearer names and search that understands whole sentences** (5,519 icons · 62 sets).

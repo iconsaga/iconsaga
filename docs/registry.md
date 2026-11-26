@@ -64,7 +64,7 @@ The other ways, and why not:
 
 **Longer:**
 
-> IconSaga is a library of <!-- sync:icons -->5,519<!-- /sync --> free icons, all drawn in one style so they belong together. Connect it to your AI and ask in your own words, in any of 10 languages: it finds icons that fit, in your brand colors, and puts them into your website or slides. No account needed to start. Free use needs a one-line credit; IconSaga Pro removes it.
+> IconSaga is a library of <!-- sync:icons -->5,527<!-- /sync --> free icons, all drawn in one style so they belong together. Connect it to your AI and ask in your own words, in any of 10 languages: it finds icons that fit, in your brand colors, and puts them into your website or slides. No account needed to start. Free use needs a one-line credit; IconSaga Pro removes it.
 
 **What your AI can do with it (tools):**
 
